@@ -1,0 +1,11 @@
+language,popularity,users,job_openings,average_salary,platforms
+JavaScript,95,13000000,55000,80000,"Web Development,Mobile Development,Desktop Applications"
+Python,90,10000000,60000,90000,"Web Development,Data Science,AI/ML,Automation"
+Java,85,9000000,45000,85000,"Web Development,Mobile Development,Enterprise Applications"
+C#,80,7000000,40000,80000,"Web Development,Desktop Applications,Game Development"
+C++,75,6000000,30000,85000,"System Programming,Game Development,Desktop Applications"
+PHP,70,5000000,20000,70000,"Web Development"
+Swift,65,1500000,25000,95000,"Mobile Development"
+Ruby,60,2000000,15000,85000,"Web Development"
+Go,55,1000000,10000,95000,"System Programming,Web Development"
+Kotlin,50,900000,12000,90000,"Mobile Development,Web Development"

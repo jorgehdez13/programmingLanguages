@@ -1,0 +1,82 @@
+[
+    {
+        "language": "JavaScript",
+        "popularity": 95,
+        "users": 13000000,
+        "job_openings": 55000,
+        "average_salary": 80000,
+        "platforms": ["Web Development", "Mobile Development", "Desktop Applications"]
+    },
+    {
+        "language": "Python",
+        "popularity": 90,
+        "users": 10000000,
+        "job_openings": 60000,
+        "average_salary": 90000,
+        "platforms": ["Web Development", "Data Science", "AI/ML", "Automation"]
+    },
+    {
+        "language": "Java",
+        "popularity": 85,
+        "users": 9000000,
+        "job_openings": 45000,
+        "average_salary": 85000,
+        "platforms": ["Web Development", "Mobile Development", "Enterprise Applications"]
+    },
+    {
+        "language": "C#",
+        "popularity": 80,
+        "users": 7000000,
+        "job_openings": 40000,
+        "average_salary": 80000,
+        "platforms": ["Web Development", "Desktop Applications", "Game Development"]
+    },
+    {
+        "language": "C++",
+        "popularity": 75,
+        "users": 6000000,
+        "job_openings": 30000,
+        "average_salary": 85000,
+        "platforms": ["System Programming", "Game Development", "Desktop Applications"]
+    },
+    {
+        "language": "PHP",
+        "popularity": 70,
+        "users": 5000000,
+        "job_openings": 20000,
+        "average_salary": 70000,
+        "platforms": ["Web Development"]
+    },
+    {
+        "language": "Swift",
+        "popularity": 65,
+        "users": 1500000,
+        "job_openings": 25000,
+        "average_salary": 95000,
+        "platforms": ["Mobile Development"]
+    },
+    {
+        "language": "Ruby",
+        "popularity": 60,
+        "users": 2000000,
+        "job_openings": 15000,
+        "average_salary": 85000,
+        "platforms": ["Web Development"]
+    },
+    {
+        "language": "Go",
+        "popularity": 55,
+        "users": 1000000,
+        "job_openings": 10000,
+        "average_salary": 95000,
+        "platforms": ["System Programming", "Web Development"]
+    },
+    {
+        "language": "Kotlin",
+        "popularity": 50,
+        "users": 900000,
+        "job_openings": 12000,
+        "average_salary": 90000,
+        "platforms": ["Mobile Development", "Web Development"]
+    }
+]

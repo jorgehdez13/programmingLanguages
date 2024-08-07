@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Languages Data Visualization</title>
+    
+    <!-- Linking to external CSS for styling -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Importing D3.js library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <!-- Main container for the content -->
+    <div class="container">
+        <!-- Header section -->
+        <header>
+            <h1>Programming Languages Data Visualization</h1>
+            <p>Explore a comprehensive range of visualizations showcasing trends, distributions, and correlations in programming languages.</p>
+        </header>
+
+        <!-- Navigation menu for switching between visualizations -->
+        <nav>
+            <ul>
+                <li><a href="#barChart">Bar Chart</a></li>
+                <li><a href="#pieChart">Pie Chart</a></li>
+                <li><a href="#lineChart">Line Chart</a></li>
+                <li><a href="#scatterPlot">Scatter Plot</a></li>
+                <li><a href="#sankeyDiagram">Sankey Diagram</a></li>
+                <li><a href="#areaChart">Area Chart</a></li>
+                <li><a href="#heatmap">Heatmap</a></li>
+                <li><a href="#bubbleChart">Bubble Chart</a></li>
+            </ul>
+        </nav>
+
+        <!-- Section for Bar Chart visualization -->
+        <section id="barChart" class="chart-section">
+            <h2>Bar Chart: Popularity of Programming Languages</h2>
+            <div class="chart" id="barChartContainer"></div>
+        </section>
+
+        <!-- Section for Pie Chart visualization -->
+        <section id="pieChart" class="chart-section">
+            <h2>Pie Chart: Distribution of Job Openings</h2>
+            <div class="chart" id="pieChartContainer"></div>
+        </section>
+
+        <!-- Section for Line Chart visualization -->
+        <section id="lineChart" class="chart-section">
+            <h2>Line Chart: Trends in Language Popularity</h2>
+            <div class="chart" id="lineChartContainer"></div>
+        </section>
+
+        <!-- Section for Scatter Plot visualization -->
+        <section id="scatterPlot" class="chart-section">
+            <h2>Scatter Plot: User Count vs. Average Salary</h2>
+            <div class="chart" id="scatterPlotContainer"></div>
+        </section>
+
+        <!-- Section for Sankey Diagram visualization -->
+        <section id="sankeyDiagram" class="chart-section">
+            <h2>Sankey Diagram: Platform Usage by Language</h2>
+            <div class="chart" id="sankeyDiagramContainer"></div>
+        </section>
+
+        <!-- Section for Area Chart visualization -->
+        <section id="areaChart" class="chart-section">
+            <h2>Area Chart: Popularity Over Time</h2>
+            <div class="chart" id="areaChartContainer"></div>
+        </section>
+
+        <!-- Section for Heatmap visualization -->
+        <section id="heatmap" class="chart-section">
+            <h2>Heatmap: Correlation Between Programming Languages</h2>
+            <div class="chart" id="heatmapContainer"></div>
+        </section>
+
+        <!-- Section for Bubble Chart visualization -->
+        <section id="bubbleChart" class="chart-section">
+            <h2>Bubble Chart: Developer Skills vs. Years of Experience</h2>
+            <div class="chart" id="bubbleChartContainer"></div>
+        </section>
+
+        <!-- Footer section -->
+        <footer>
+            <p>&copy; 2024 Data Visualization Project. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <!-- Linking to external JavaScript file for D3 visualizations -->
+    <script src="js/barChart.js"></script>
+    <script src="js/pieChart.js"></script>
+    <script src="js/lineCart.js"></script>
+    <script src="js/scatterPlot.js"></script>
+    <script src="js/sankeyDiagram.js"></script>
+    <script src="js/areaChart.js"></script>
+    <script src="js/heatmap.js"></script>
+    <script src="js/bubbleChart.js"></script>
+</body>
+</html>
