@@ -134,3 +134,62 @@ footer {
 }
 
 /* Styles for the bar chart end **************************/
+
+/* Styles for the heatmap section */
+
+.heatmap-wrapper {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+#heatmapContainer {
+    flex: 2;
+}
+
+#heatmapLegend {
+    flex: 1;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+#heatmapTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: auto;
+}
+
+#heatmapTable th, #heatmapTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#heatmapTable th {
+    background-color: #f4f4f4;
+}
+
+/* Styles for the heatmap end **************************/
+
+/* Styles for the bubbleChart section */
+
+#bubbleChartContainer {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ddd;
+}
+
+/* Styles for the bubbleChart end **************************/
+
+/* Style for tooltip */
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
