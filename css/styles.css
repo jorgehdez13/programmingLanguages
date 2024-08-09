@@ -193,3 +193,17 @@ footer {
     border-radius: 8px;
     pointer-events: none;
 }
+
+
+
+/* Styles for the pie chart init */
+.pie-chart path {
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+.pie-chart text {
+    font-size: 12px;
+    fill: #000;
+}
+/* Styles for the pie chart end */
